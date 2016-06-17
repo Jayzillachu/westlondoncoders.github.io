@@ -29,6 +29,10 @@ p {
   font-size: 1.5em;
 }
 
+.page {
+  margin: 1% 5%;
+}
+
 .code {
   font-family: 'Source Code Pro';
 }
@@ -38,15 +42,15 @@ img {
 }
 
 .content {
-  width: 100%;
+  /*width: 100%;*/
   margin: 1% 5%;
 }
 
 .bar {
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  margin: 0 auto;
+  width: 70%;
+  margin: 10% auto;
 }
 
 li {
@@ -69,7 +73,7 @@ a:hover {
     height: 60px;
   }
   .content {
-    width: 100%;
+    /*width: 90%;*/
   }
   .bar {
     flex-direction: column;
@@ -77,7 +81,7 @@ a:hover {
   }
   li {
     width: 100%;
-    margin-top: 5%;
+    margin: 5% 0;
   }
 
 }

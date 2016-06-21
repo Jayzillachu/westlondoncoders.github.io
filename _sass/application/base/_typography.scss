@@ -1,3 +1,47 @@
+// Fonts
+
+$body-font: 'Work Sans', sans-serif;
+$logo-font: 'Finger Paint', cursive;
+$nav-font: 'Special Elite', cursive;
+
+body {
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+h1 {
+  font-family: $logo-font;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-family: $nav-font;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+  opacity: .6;
+}
+
+h3,
+a,
+p,
+ul,
+li {
+  font-family: $body-font;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -6,22 +50,33 @@ ul {
 
 a {
   text-decoration: none;
+  color: $color-blue;
 }
 
-h1 {
-  font-size: 5em;
+a:hover {
+  border-bottom: 3px solid $color-pink;
 }
 
-h2 {
-  font-size: 2.5em;
+
+
+
+ul {
+  margin: 2em 0;
 }
 
-p {
-  font-size: 1.5em;
+li {
+  margin: 1em;
+  margin-left: 3em;
 }
 
-.content {
-  h2 {
-    font-family: 'Source Code Pro';
-  }
+ul li:before {
+  content: '\f006';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: $color-pink;
 }
+
+// .link {
+//   font-size: 0.45em;
+// }

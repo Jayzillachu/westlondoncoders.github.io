@@ -1,0 +1,17 @@
+.m-banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-banner--yellow {
+  background: $color-yellow;
+  color: $color-blue;
+}
+
+.m-banner--pink {
+  background: $color-pink;
+  color: $color-yellow;
+}

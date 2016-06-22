@@ -20,4 +20,10 @@
 .m-banner--pink {
   background: $color-pink;
   color: $color-yellow;
+  a {
+    color: $color-blue;
+  }
+  a:hover {
+    border-bottom: 3px solid $color-yellow;
+  }
 }

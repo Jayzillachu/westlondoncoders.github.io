@@ -1,25 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hello WLC!"
 date:   2016-06-21 17:27:00 +0100
 categories: jekyll update
+author: Steve Brewer
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+So this group grew a lot faster than I anticipated, which is great! Clearly there's a demand for meetups in West London! I'm looking for an alternative venue for this Saturday (though still at Ealing Broadway), suggestions welcome - otherwise we'll stick with Costa. Going forward, I'm aiming to host a meetup weekly but with no obligation for anyone to attend all of them.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+The plan is the same:
 
-Jekyll also offers powerful support for code snippets:
+It's not a teacher-led meetup, it will be something between a social and a hackday, where we can discuss and generate ideas and then (if we want to) build projects using front and back end skills. We can do this as a group or in small groups, whatever feels appropriate on the day. Otherwise we could also just chat and practice code in pairs. There are no expectations.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Also we have a Github organisation setup for the website and where we can start projects, if anyone wants to help out with that please get in touch.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Looking forward to seeing you all on Saturday or at a future meetup!

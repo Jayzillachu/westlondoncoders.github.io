@@ -76,6 +76,17 @@ ul li:before {
     background: #e35b88;
     border: none; }
 
+.a-button--share {
+  width: 50%;
+  margin: 10px 8px 20px 8px;
+  display: inline-block; }
+  @media (min-width: 760px) {
+    .a-button--share {
+      width: 20%; } }
+  @media (min-width: 1024px) {
+    .a-button--share {
+      width: 10%; } }
+
 body {
   max-width: 1280px; }
 
@@ -118,6 +129,19 @@ li {
 
 .a-content-narrow {
   max-width: 30em; }
+
+.a-share-page {
+  text-align: center; }
+
+.a-share-page__icon {
+  font-size: 2em;
+  margin-top: 10px;
+  color: #fff;
+  display: block; }
+
+.a-share-buttons {
+  display: flex;
+  justify-content: center; }
 
 body {
   padding: 45px 0 0 0; }
@@ -204,6 +228,15 @@ body {
       .m-navbar i {
         color: #f5d547; } }
 
+footer {
+  background: #f5d547;
+  padding: 2%; }
+  footer p {
+    line-height: 1.5;
+    opacity: .5; }
+  footer ul {
+    margin: 20px; }
+
 .m-banner {
   height: 100vh;
   display: flex;
@@ -222,6 +255,53 @@ body {
 .m-banner--pink {
   background: #db3069;
   color: #f5d547; }
+  .m-banner--pink a {
+    color: #1446a0; }
+  .m-banner--pink a:hover {
+    border-bottom: 3px solid #f5d547; }
+
+.m-post-list {
+  max-width: 95%;
+  margin: 80px auto; }
+  @media (min-width: 760px) {
+    .m-post-list {
+      max-width: 90%; } }
+  @media (min-width: 1024px) {
+    .m-post-list {
+      max-width: 60%; } }
+  .m-post-list a:hover {
+    border: none;
+    color: #3474e6; }
+
+.m-post-list__title {
+  display: flex; }
+  @media (min-width: 760px) {
+    .m-post-list__title {
+      flex-flow: row wrap; } }
+  .m-post-list__title h1 {
+    font-size: 2em; }
+  .m-post-list__title i {
+    font-size: 1em;
+    padding-right: 15px; }
+
+.m-post-list__meta h2 {
+  font-size: 1em;
+  opacity: .5;
+  margin-bottom: 20px; }
+.m-post-list__meta i {
+  font-size: .8em;
+  padding: 8px; }
+
+.m-post-list__excerpt {
+  margin-bottom: 40px; }
+
+.o-post {
+  padding: 40px 0; }
+  .o-post__meta {
+    font-size: 1.2em;
+    margin-bottom: 20px; }
+  .o-post p {
+    margin: 20px 0; }
 
 .center {
   text-align: center; }

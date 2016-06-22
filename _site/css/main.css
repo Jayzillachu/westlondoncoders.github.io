@@ -90,12 +90,6 @@ ul li:before {
     border-bottom: none;
     background: #e35b88; }
 
-body {
-  max-width: 1280px; }
-
-.page {
-  margin: 1% 5%; }
-
 img {
   height: 120px; }
 
@@ -104,12 +98,6 @@ img {
 
 li {
   width: 50%; }
-
-.bar {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin: 10% auto; }
 
 .a-section {
   overflow: hidden;

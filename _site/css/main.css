@@ -164,7 +164,7 @@ body {
       position: fixed;
       width: 100%;
       box-shadow: 0 8px 6px -6px #999; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1030px) {
     .m-navbar {
       padding: 15px;
       margin: 0;
@@ -194,7 +194,7 @@ body {
     @media (min-width: 760px) {
       .m-navbar h1 {
         font-size: 1.5em; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1030px) {
       .m-navbar h1 {
         font-size: 3em; } }
   .m-navbar h2 {
@@ -206,7 +206,7 @@ body {
       .m-navbar h2 {
         font-size: 1em;
         margin-right: 25px; } }
-    @media (min-width: 1024px) {
+    @media (min-width: 1030px) {
       .m-navbar h2 {
         font-size: 1.8em; } }
   .m-navbar a {
@@ -241,7 +241,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 0 15px; }
-  @media (min-width: 1024px) {
+  @media (min-width: 1030px) {
     .m-banner {
       padding: 0; } }
 
@@ -264,7 +264,7 @@ footer {
     .m-post-list {
       max-width: 90%;
       height: 75vh; } }
-  @media (min-width: 1024px) {
+  @media (min-width: 1030px) {
     .m-post-list {
       max-width: 60%; } }
   .m-post-list a:hover {

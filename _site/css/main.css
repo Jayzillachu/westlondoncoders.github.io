@@ -236,6 +236,11 @@ footer {
   .m-banner img {
     margin-top: 100px; }
 
+.m-banner--with-image h1 {
+  font-size: 40px;
+  padding-top: 30px; }
+.m-banner--with-image h2 {
+  font-size: 20px; }
 @media (min-width: 1030px) {
   .m-banner--with-image {
     padding: 50px 0; } }

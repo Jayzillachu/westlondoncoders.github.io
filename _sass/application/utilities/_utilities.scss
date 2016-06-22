@@ -1,3 +1,10 @@
-.center {
+.u-center {
   text-align: center;
+}
+
+.u-no-border {
+  border: none;
+  &:hover {
+    border: none;
+  }
 }

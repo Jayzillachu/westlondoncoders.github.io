@@ -5,11 +5,18 @@
   justify-content: center;
   align-items: center;
   padding: 0 15px;
-
   @media #{$brk-wide} {
     padding: 0;
   }
+  img {
+    margin-top: 100px;
+  }
+}
 
+.m-banner--with-image {
+  @media #{$brk-wide} {
+    padding: 50px 0;
+  }
 }
 
 .m-banner--yellow {

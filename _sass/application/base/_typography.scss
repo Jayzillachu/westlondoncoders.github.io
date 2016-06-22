@@ -1,8 +1,8 @@
 // Fonts
 
 $body-font: 'Work Sans', sans-serif;
-$logo-font: 'Finger Paint', cursive;
-$nav-font: 'Special Elite', cursive;
+$logo-font: 'Josefin Sans', sans-serif;
+$nav-font: 'Josefin Sans', sans-serif;
 
 body {
   line-height: 1.8;
@@ -21,12 +21,12 @@ li {
 
 h1 {
   font-family: $logo-font;
-  font-size: 2.5em;
+  font-size: 4em;
 }
 
 h2 {
   font-family: $nav-font;
-  font-size: 1.8em;
+  font-size: 2.5em;
 }
 
 h3 {

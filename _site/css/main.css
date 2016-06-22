@@ -13,12 +13,12 @@ li {
   margin: 0; }
 
 h1 {
-  font-family: "Finger Paint", cursive;
-  font-size: 2.5em; }
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 4em; }
 
 h2 {
-  font-family: "Special Elite", cursive;
-  font-size: 1.8em; }
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5em; }
 
 h3 {
   font-size: 1.5em;
@@ -174,7 +174,7 @@ body {
     border: none; }
   .m-navbar h1 {
     align-self: flex-start;
-    font-family: "Finger Paint", cursive;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 2em;
     line-height: 1;
     padding: 0;
@@ -184,9 +184,9 @@ body {
         font-size: 1.5em; } }
     @media (min-width: 1030px) {
       .m-navbar h1 {
-        font-size: 3em; } }
+        font-size: 2em; } }
   .m-navbar h2 {
-    font-family: "Special Elite", cursive;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 1.8em;
     padding: 0;
     margin: 0; }
@@ -196,7 +196,8 @@ body {
         margin-right: 25px; } }
     @media (min-width: 1030px) {
       .m-navbar h2 {
-        font-size: 1.8em; } }
+        font-size: 1.4em;
+        margin-bottom: -8px; } }
   .m-navbar a {
     color: #fff;
     text-align: left;

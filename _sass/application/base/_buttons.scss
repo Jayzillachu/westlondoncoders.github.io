@@ -1,8 +1,9 @@
 .a-button {
   font-size: 1.5em;
   text-align: center;
-  font-family: $body-font;
+
   a {
+    font-family: $nav-font;
     padding: 20px 20px;
     color: $color-cream;
     font-weight: bold;
@@ -12,7 +13,7 @@
     border-radius: 5%;
   }
   a:hover {
-    background: lighten($color-pink, 8%);
+    background: lighten($color-pink, 4%);
     border: none;
     color: $color-cream;
   }

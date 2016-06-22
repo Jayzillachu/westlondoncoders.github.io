@@ -59,9 +59,9 @@ ul li:before {
 
 .a-button {
   font-size: 1.5em;
-  text-align: center;
-  font-family: "Work Sans", sans-serif; }
+  text-align: center; }
   .a-button a {
+    font-family: "Josefin Sans", sans-serif;
     padding: 20px 20px;
     color: #fff;
     font-weight: bold;
@@ -70,7 +70,7 @@ ul li:before {
     transition: .3s;
     border-radius: 5%; }
   .a-button a:hover {
-    background: #e15382;
+    background: #de4176;
     border: none;
     color: #fff; }
 
@@ -263,8 +263,7 @@ footer {
     .m-post-list {
       max-width: 60%; } }
   .m-post-list a:hover {
-    border: none;
-    color: #3474e6; }
+    border: none; }
 
 .m-post-list__title {
   display: flex; }
@@ -276,6 +275,8 @@ footer {
   .m-post-list__title i {
     font-size: 1em;
     padding-right: 15px; }
+  .m-post-list__title h1:hover {
+    color: #3474e6; }
 
 .m-post-list__meta h2 {
   font-size: 1em;

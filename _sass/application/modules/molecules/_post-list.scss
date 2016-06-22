@@ -1,8 +1,10 @@
 .m-post-list {
   max-width: 95%;
   margin: 80px auto;
+
   @media #{$brk-narrow} {
     max-width: 90%;
+    height: 75vh;
   }
   @media #{$brk-wide} {
     max-width: 60%;

@@ -265,7 +265,8 @@ footer {
   margin: 80px auto; }
   @media (min-width: 760px) {
     .m-post-list {
-      max-width: 90%; } }
+      max-width: 90%;
+      height: 75vh; } }
   @media (min-width: 1024px) {
     .m-post-list {
       max-width: 60%; } }

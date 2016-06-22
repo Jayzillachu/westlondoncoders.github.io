@@ -3,20 +3,42 @@ body {
 }
 
 .m-navbar {
-  min-height: 0;
-  height: 45px;
-  position: fixed;
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  color: $color-cream;
-  padding: 15px 0;
+  flex-direction: column;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
   background: $color-blue;
+  color: $color-cream;
   margin-top: -45px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  box-shadow: 0 8px 6px -6px #999;
+
+  @media #{$brk-narrow} {
+    padding: 10px;
+    margin: -45px 0 0 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 8px 6px -6px #999;
+  }
+
+  @media #{$brk-wide} {
+    padding: 15px;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: $color-cream;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    background: $color-blue;
+    margin-top: -45px;
+    box-shadow: 0 8px 6px -6px #999;
+  }
 
   .pink-hover {
     border: none;
@@ -27,11 +49,20 @@ body {
       border: none;
     }
   h1 {
+    align-self: flex-start;
     font-family: $logo-font;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1;
     padding: 0;
-    margin: 0;
+    margin: 20px;
+
+    @media #{$brk-narrow} {
+      font-size: 1.5em;
+    }
+
+    @media #{$brk-wide} {
+      font-size: 3em;
+    }
   }
 
   h2 {
@@ -39,16 +70,34 @@ body {
     font-size: 1.8em;
     padding: 0;
     margin: 0;
+    @media #{$brk-narrow} {
+      font-size: 1em;
+      margin-right: 25px;
+    }
+
+    @media #{$brk-wide} {
+      font-size: 1.8em;
+    }
+
   }
   a {
     color: $color-cream;
+    text-align: left;
     border-bottom: 3px solid $color-blue;
+    margin-right: 20px;
+
+    @media #{$brk-narrow} {
+      text-align: center;
+    }
   }
 
   a:hover {
     border-bottom: 3px solid $color-pink;
   }
   i {
-    color: $color-yellow;
+    color: $color-pink;
+    @media #{$brk-narrow} {
+      color: $color-yellow;
+    }
   }
 }

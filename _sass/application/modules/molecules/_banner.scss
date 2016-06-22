@@ -4,6 +4,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 15px;
+
+  @media #{$brk-wide} {
+    padding: 0;
+  }
+
 }
 
 .m-banner--yellow {

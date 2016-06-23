@@ -1,6 +1,6 @@
 // Fonts
 
-$body-font: 'Work Sans', sans-serif;
+$body-font: 'Josefin Sans', sans-serif;
 $logo-font: 'Josefin Sans', sans-serif;
 $nav-font: 'Josefin Sans', sans-serif;
 
@@ -40,6 +40,8 @@ p,
 ul,
 li {
   font-family: $body-font;
+  font-size: 1.2em;
+  line-height: 1.6;
 }
 
 ul {
